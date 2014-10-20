@@ -1,0 +1,37 @@
+﻿Build started 10/8/2014 9:54:37 AM.
+     1>Project "C:\Users\Aaron\Documents\Visual Studio 2012\Projects\FourDFractalExplorer\FourDFractalExplorer\FourDFractalExplorer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\LeapDeveloperKit\LeapSDK\include /I"C:\Users\Aaron\Documents\Visual Studio 2012\Projects\FourDFractalExplorer\FourDFractalExplorer" /IC:\sfml_win\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Main.cpp Quaternion.hpp
+         Main.cpp
+     1>c:\users\aaron\documents\visual studio 2012\projects\fourdfractalexplorer\fourdfractalexplorer\Quaternion.hpp(50): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aaron\documents\visual studio 2012\projects\fourdfractalexplorer\fourdfractalexplorer\Quaternion.hpp(54): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\aaron\documents\visual studio 2012\projects\fourdfractalexplorer\fourdfractalexplorer\Quaternion.hpp(55): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\aaron\documents\visual studio 2012\projects\fourdfractalexplorer\fourdfractalexplorer\Quaternion.hpp(76): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\aaron\documents\visual studio 2012\projects\fourdfractalexplorer\fourdfractalexplorer\Quaternion.hpp(77): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\aaron\documents\visual studio 2012\projects\fourdfractalexplorer\fourdfractalexplorer\Quaternion.hpp(78): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\aaron\documents\visual studio 2012\projects\fourdfractalexplorer\fourdfractalexplorer\Quaternion.hpp(79): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Main.cpp(62): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(64): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(66): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(68): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         Quaternion.hpp
+     1>c:\leapdeveloperkit\leapsdk\include\LeapMath.h(258): warning C4305: 'return' : truncation from 'double' to 'float'
+     1>Quaternion.hpp(50): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Quaternion.hpp(54): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>Quaternion.hpp(55): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>Quaternion.hpp(76): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Quaternion.hpp(77): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Quaternion.hpp(78): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Quaternion.hpp(79): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaron\Documents\Visual Studio 2012\Projects\FourDFractalExplorer\x64\Release\FourDFractalExplorer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\LeapDeveloperKit\LeapSDK\lib\x64 /LIBPATH:C:\sfml_win\lib "sfml-main.lib" "sfml-graphics.lib" "sfml-system.lib" "sfml-window.lib" Leap.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aaron\Documents\Visual Studio 2012\Projects\FourDFractalExplorer\x64\Release\FourDFractalExplorer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaron\Documents\Visual Studio 2012\Projects\FourDFractalExplorer\x64\Release\FourDFractalExplorer.lib" /MACHINE:X64 x64\Release\Leap.obj
+         x64\Release\Main.obj
+         x64\Release\Quaternion.obj
+         Generating code
+         Finished generating code
+         FourDFractalExplorer.vcxproj -> C:\Users\Aaron\Documents\Visual Studio 2012\Projects\FourDFractalExplorer\x64\Release\FourDFractalExplorer.exe
+     1>Done Building Project "C:\Users\Aaron\Documents\Visual Studio 2012\Projects\FourDFractalExplorer\FourDFractalExplorer\FourDFractalExplorer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.40
